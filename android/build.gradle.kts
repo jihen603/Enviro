@@ -1,0 +1,1 @@
+e: C:\Users\jihen\AndroidStudioProjects\Enviro\android\build.gradle.kts:8:19: Unexpected tokens (use ';' to separate expressions on the same line)

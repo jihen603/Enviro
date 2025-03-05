@@ -1,0 +1,47 @@
+name: EnviroSafeIot
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_native_splash: ^2.4.5
+  flutter_otp_text_field: ^1.5.0+1
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  get: ^4.7.2
+  provider: ^6.1.2
+  shared_preferences: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Déplacé ici
+  flutter_launcher_icons: ^0.14.3
+
+flutter_native_splash:
+  color: "#f7f6f1"
+  color_dark: "#272727"
+  image: assets/images/backgroundd.jpg
+  image_dark: assets/images/backgroundd.jpg
+
+  android_12:
+    image: assets/images/backgroundd.jpg
+    icon_background_color: "#f7f6f1"
+    image_dark: assets/images/backgroundd.jpg
+    icon_background_color_dark: "#272727"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/backgroundd.jpg
+    - assets/images/google.png
+    - assets/images/img_1.png
